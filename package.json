@@ -9,12 +9,17 @@
     "test": "node test.js | tap-diff"
   },
   "dependencies": {
+    "fs": "0.0.1-security",
     "vue": "^2.2.1"
   },
   "devDependencies": {
-    "babel-core": "^6.0.0",
-    "babel-loader": "^6.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-latest": "^6.0.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-regenerator-runtime": "^6.5.0",
     "cross-env": "^3.0.0",
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
